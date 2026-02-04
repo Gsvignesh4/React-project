@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './files/home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Search from './files/search'
+import Search from './files/Search'
 import Playlist from './files/Playlist'
 import Liked from './files/Liked'
 import Nav from './components/Nav'
