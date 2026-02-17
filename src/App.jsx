@@ -5,7 +5,8 @@ import Search from './files/Search'
 import Playlist from './files/Playlist'
 import Liked from './files/Liked'
 import Nav from './components/Nav'
-import Home from './files/Home'
+import Home from './files/HomePage'
+
 
 function App() {
   return (

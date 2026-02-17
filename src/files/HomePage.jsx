@@ -39,7 +39,7 @@ function Home() {
   }
   
   return (
-    <div className="w-full h-screen bg-black flex relative">
+    <div className="w-full h-screen bg-black flex relative ">
       <MdKeyboardArrowDown className='absolute text-white top-[20px] left-[10%] text-[20px] md:hidden'onClick={()=>setArrow(prev=>!prev)}/>
 
       {!arrow?<>{/* LEFT */}
@@ -94,7 +94,8 @@ function Home() {
       </div>
 
       {/* RIGHT */}
-      <div className='w-[100%] md:w-[50%] h-full md:flex flex-col hidden gap-5 pt-[100px] justify-start overflow-auto pb-[20px]'>
+      <div className='w-[100%] md:w-[50%] md:flex flex-col hidden gap-5 justify-start overflow-y-auto h-[calc(100vh-60px)] mt-[60px] pb-[80px] '>
+
         {songsData.map((song)=>(
             <Card name={song.name} image={song.image} singer={song.singer} songIndex={song.id-1}/>
         ))}

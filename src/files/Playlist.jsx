@@ -11,7 +11,7 @@ function Playlist() {
       <Player/>
       <h1 className='text-white font-semibold text-[20px]'>Playlist</h1>
 
-      <div className='w-full h-[60%] md:h-[100%] flex flex-col justify-start items-center gap-[20px] overflow-auto'>
+      <div className='w-full h-[70%] md:h-[100%] flex flex-col justify-start items-center gap-[20px] overflow-auto md:pb-[120px]'>
         {songs.map((song)=>(
           <Card name={song.name} image={song.image} singer={song.singer} songIndex={song.songIndex}/>
         ))}

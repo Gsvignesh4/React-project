@@ -118,21 +118,21 @@ export const songsData = [
   },
   {
     id: 11,
-    name: "Mann Mera",
+    name: "Hukum",
     song: song11,
     image: image11,
-    category: "Romantic, Bollywood",
+    category: "Tollywood",
     liked: false,
-    singer: "Gajendra Verma"
+    singer: "Anirudh Ravichander"
   },
   {
     id: 12,
-    name: "Jai Ho",
+    name: "Chikiri Chikiri",
     song: song12,
     image: image12,
-    category: "Bollywood",
+    category: "Tollywood",
     liked: false,
-    singer: "AR Rahman, Sukhwinder Singh"
+    singer: "AR Rahman"
   },
   {
     id: 13,
